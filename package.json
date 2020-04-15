@@ -1,0 +1,20 @@
+{
+	"name": "platzi-tailwind-css",
+	"version": "1.0.0",
+	"description": "Tailwind",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss css/tailwind.css -o public/css/style.css"
+	},
+	"keywords": [
+		"CSS",
+		"Tailwind"
+	],
+	"author": "Andres Campuzano <campuxano88@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^9.7.6",
+		"postcss-cli": "^7.1.0",
+		"tailwindcss": "^1.2.0"
+	}
+}
